@@ -7,6 +7,6 @@ on:
 jobs:
   build-run:
     name: Build and run with startup msg verification
-    uses: arielswalker/cFS/.github/workflows/build-run-app.yml@main
+    uses: arielswalker/cFS/.github/workflows/build-run-app.yml@arielswalker-test-sch
     with:
       startup-string: Application initialized
